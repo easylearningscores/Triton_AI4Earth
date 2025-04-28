@@ -40,4 +40,11 @@
 
 ### 🌟 **Get Started**
 
+```bash
+conda create -n triton_earth python=3.10.15 -y && \
+conda activate triton_earth && \
+conda install -c nvidia cuda-cudart=12.1.105 cuda-libraries=12.1.0 cuda-nvrtc=12.1.105 cuda-nvtx=12.1.105 cuda-opencl=12.6.77 -y && \
+conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia -y && \
+pip install -r requirements.txt && \
+conda install ffmpeg=4.3 libjpeg-turbo=2.0.0 -c pytorch -y
 
