@@ -31,3 +31,5 @@
 </div>
 
 
+## News 🚀🚀🚀
+- `2025/05/10`: We release all weights, training, inference, and other raw files, and upload the draft of the paper.
