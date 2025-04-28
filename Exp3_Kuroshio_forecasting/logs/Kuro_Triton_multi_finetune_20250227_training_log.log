@@ -1,0 +1,62 @@
+2025-02-27 11:29:27,737 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-27 11:29:27,806 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-27 11:29:27,856 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-27 11:29:27,899 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-27 11:29:27,910 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-27 11:29:27,921 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-27 11:29:27,927 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-27 11:29:27,937 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-02-27 11:30:51,766 Epoch 1/2000
+2025-02-27 11:30:55,827 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,827 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,828 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,827 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,828 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,828 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,828 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:30:55,828 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:32:44,457 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-27 11:32:44,466 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-27 11:32:44,572 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-27 11:32:44,577 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-27 11:32:44,601 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-27 11:32:44,634 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-02-27 11:32:44,651 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-27 11:32:44,653 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-27 11:34:28,036 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-27 11:34:28,247 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-27 11:34:28,276 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-27 11:34:28,291 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-27 11:34:28,297 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-27 11:34:28,375 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-02-27 11:34:28,378 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-27 11:34:28,379 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-27 11:35:51,524 Epoch 1/2000
+2025-02-27 11:35:56,067 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,067 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,067 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,068 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,068 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,068 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,068 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:35:56,068 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:36:34,354 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-27 11:36:34,418 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-27 11:36:34,502 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-27 11:36:34,508 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-27 11:36:34,514 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-27 11:36:34,551 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-27 11:36:34,563 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-02-27 11:36:34,566 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-27 11:38:03,555 Epoch 1/2000
+2025-02-27 11:38:07,539 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,539 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,540 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,540 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,540 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,540 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,540 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:38:07,540 Reducer buckets have been rebuilt in this iteration.
+2025-02-27 11:46:31,113 Current Learning Rate: 0.0000099994
+2025-02-27 11:46:32,241 Train Loss: 0.0180559, Val Loss: 0.0122653
+2025-02-27 11:46:32,241 Epoch 2/2000

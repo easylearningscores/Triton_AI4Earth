@@ -1,0 +1,9 @@
+2025-02-26 15:00:39,982 成功加载模型权重：/jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_2_Kuroshio/checkpoints/Kuro_Triton_exp1_20250224_best_model.pth
+2025-02-26 15:00:40,002 开始单批次推理...
+2025-02-26 15:00:50,376 单批次结果已保存至：/jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_2_Kuroshio/results
+2025-02-26 15:00:50,378 输入数据形状：(2, 10, 2, 256, 256) (batch_size, seq_len, channels, height, width)
+2025-02-26 15:00:50,378 目标数据形状：(2, 10, 2, 256, 256)
+2025-02-26 15:00:50,379 输出数据形状：(2, 10, 2, 256, 256)
+2025-02-26 15:00:50,380 输入数据范围：[-1.72, 1.93]
+2025-02-26 15:00:50,382 输出数据范围：[-1.64, 1.89]
+2025-02-26 15:00:50,385 单批次推理完成！

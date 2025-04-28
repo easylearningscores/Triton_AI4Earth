@@ -1,0 +1,35 @@
+2024-11-07 22:13:57,616 Added key: store_based_barrier_key:1 to store for rank: 2
+2024-11-07 22:13:57,712 Added key: store_based_barrier_key:1 to store for rank: 5
+2024-11-07 22:13:57,717 Added key: store_based_barrier_key:1 to store for rank: 1
+2024-11-07 22:13:57,754 Added key: store_based_barrier_key:1 to store for rank: 4
+2024-11-07 22:13:57,803 Added key: store_based_barrier_key:1 to store for rank: 7
+2024-11-07 22:13:57,819 Added key: store_based_barrier_key:1 to store for rank: 6
+2024-11-07 22:13:57,824 Added key: store_based_barrier_key:1 to store for rank: 3
+2024-11-07 22:13:57,826 Added key: store_based_barrier_key:1 to store for rank: 0
+2024-11-07 22:15:08,339 Epoch 1/500
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,063 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:14,064 Reducer buckets have been rebuilt in this iteration.
+2024-11-07 22:15:52,061 Current Learning Rate: 0.0009999901
+2024-11-07 22:15:52,995 Train Loss: 0.7143657, Val Loss: 0.0286528
+2024-11-07 22:15:52,995 Epoch 2/500
+2024-11-07 22:16:35,814 Current Learning Rate: 0.0009999605
+2024-11-07 22:16:36,763 Train Loss: 0.0185759, Val Loss: 0.0147644
+2024-11-07 22:16:36,764 Epoch 3/500
+2024-11-07 22:17:19,440 Current Learning Rate: 0.0009999112
+2024-11-07 22:17:20,379 Train Loss: 0.0151753, Val Loss: 0.0132926
+2024-11-07 22:17:20,379 Epoch 4/500
+2024-11-07 22:18:03,294 Current Learning Rate: 0.0009998421
+2024-11-07 22:18:04,405 Train Loss: 0.0144290, Val Loss: 0.0130041
+2024-11-07 22:18:04,406 Epoch 5/500
+2024-11-07 22:18:47,143 Current Learning Rate: 0.0009997533
+2024-11-07 22:18:48,118 Train Loss: 0.0141721, Val Loss: 0.0128710
+2024-11-07 22:18:48,119 Epoch 6/500
+2024-11-07 22:19:30,797 Current Learning Rate: 0.0009996447
+2024-11-07 22:19:31,759 Train Loss: 0.0140451, Val Loss: 0.0127878
+2024-11-07 22:19:31,760 Epoch 7/500

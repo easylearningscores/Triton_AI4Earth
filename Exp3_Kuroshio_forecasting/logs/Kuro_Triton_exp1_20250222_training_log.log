@@ -1,0 +1,23 @@
+2025-02-21 23:33:39,872 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-21 23:33:39,930 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-21 23:33:40,019 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-21 23:33:40,036 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-21 23:33:40,067 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-21 23:33:40,077 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-21 23:33:40,114 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-21 23:33:40,131 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-02-21 23:34:29,176 Epoch 1/2000
+2025-02-21 23:34:31,455 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:34:31,461 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:45:56,745 Current Learning Rate: 0.0009999383
+2025-02-21 23:45:57,491 Train Loss: 0.0191960, Val Loss: 0.0003263
+2025-02-21 23:45:57,491 Epoch 2/2000
+2025-02-21 23:57:23,478 Current Learning Rate: 0.0009997533
+2025-02-21 23:57:24,289 Train Loss: 0.0002348, Val Loss: 0.0000897
+2025-02-21 23:57:24,290 Epoch 3/2000

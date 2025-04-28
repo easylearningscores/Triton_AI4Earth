@@ -1,0 +1,4 @@
+2025-02-26 00:37:42,946 成功加载模型权重: /jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_2_Kuroshio/checkpoints/Kuro_Kno_exp1_20250226_best_model.pth
+2025-02-26 00:37:42,946 开始推理...
+2025-02-26 00:41:05,335 推理结果已保存至 /jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_2_Kuroshio/results
+2025-02-26 00:41:17,048 推理任务完成！

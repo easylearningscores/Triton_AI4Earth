@@ -1,0 +1,31 @@
+2025-02-21 22:57:52,738 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-21 22:57:52,789 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-21 22:57:52,818 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-21 22:57:52,844 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-21 22:57:52,876 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-21 22:57:52,895 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-21 22:57:52,899 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-21 22:57:52,901 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-02-21 22:58:25,645 Epoch 1/2000
+2025-02-21 22:58:27,868 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,868 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,868 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,870 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,870 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,870 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,870 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 22:58:27,870 Reducer buckets have been rebuilt in this iteration.
+2025-02-21 23:09:53,915 Current Learning Rate: 0.0009999383
+2025-02-21 23:09:54,598 Train Loss: 251412670963189856.0000000, Val Loss: 252710721119013376.0000000
+2025-02-21 23:09:54,598 Epoch 2/2000
+2025-02-21 23:21:20,546 Current Learning Rate: 0.0009997533
+2025-02-21 23:21:21,288 Train Loss: 251412241705967168.0000000, Val Loss: 252710133857416864.0000000
+2025-02-21 23:21:21,289 Epoch 3/2000
+2025-02-21 23:32:14,355 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-02-21 23:32:14,433 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-02-21 23:32:14,470 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-02-21 23:32:14,491 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-02-21 23:32:14,536 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-02-21 23:32:14,550 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-02-21 23:32:14,582 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-02-21 23:32:14,589 Added key: store_based_barrier_key:1 to store for rank: 0
