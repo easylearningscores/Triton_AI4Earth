@@ -51,6 +51,28 @@ pip install -r requirements.txt && \
 conda install ffmpeg=4.3 libjpeg-turbo=2.0.0 -c pytorch -y
 ```
 
+#### Example Usage
+
+```bash
+from Triton_model import Triton
+import torch.nn.functional as F
+import torch
+
+inputs = torch.randn(1, 10, 2, 256, 256)
+model = Triton(
+        shape_in=(10, 2, 256, 256),
+        spatial_hidden_dim=32,
+        output_channels=1,
+        temporal_hidden_dim=64,
+        num_spatial_layers=4,
+        num_temporal_layers=8)
+output = model(inputs)
+print(output.shape)
+target = torch.rand((1, 10, 2, 256, 256))
+loss = F.mse_loss(output, target)
+loss.backward()
+```
+
 #### Run the train code
 
 We currently provide the code for single-machine multi-GPU runs, such as the Kuroshio experiment. We conduct experiments on a single machine with 8 GPUs and 40GB A100. The training command is as follows:
@@ -63,4 +85,6 @@ or
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
 ```
+
+
 
