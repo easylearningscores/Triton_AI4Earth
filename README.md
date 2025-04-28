@@ -40,6 +40,8 @@
 
 ### 🌟 **Get Started**
 
+#### Environment installation
+
 ```bash
 conda create -n triton_earth python=3.10.15 -y && \
 conda activate triton_earth && \
@@ -47,4 +49,18 @@ conda install -c nvidia cuda-cudart=12.1.105 cuda-libraries=12.1.0 cuda-nvrtc=12
 conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia -y && \
 pip install -r requirements.txt && \
 conda install ffmpeg=4.3 libjpeg-turbo=2.0.0 -c pytorch -y
+```
+
+#### Run the train code
+
+We currently provide the code for single-machine multi-GPU runs, such as the Kuroshio experiment. We conduct experiments on a single machine with 8 GPUs and 40GB A100. The training command is as follows:
+
+```bash
+torchrun --nnodes=1 --nproc_per_node=8 train_Kuro_triton.py
+```
+
+or
+```bash
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
+```
 
