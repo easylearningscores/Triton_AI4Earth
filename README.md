@@ -20,7 +20,7 @@
 [📘Documentation](https://arxiv.org/abs/2312.08403) |
 [🛠️Installation](docs/en/install.md) |
 [🚀Model Zoo](https://arxiv.org/abs/2312.08403) |
-[🤗Huggingface](https://arxiv.org/abs/2312.08403) |
+[🤗Huggingface](https://huggingface.co/easylearning/Triton_Earth_V1/tree/main) |
 [👀Visualization](https://arxiv.org/abs/2312.08403) |
 [🆕News](docs/en/changelog.md)
 
@@ -32,4 +32,4 @@
 
 
 ## News 🚀🚀🚀
-- `2025/05/10`: We release all weights [Triton_AI4Earth_V1](https://huggingface.co/easylearning/Triton_Earth_V1), training, inference, and other raw files, and upload the draft of the paper.
+- `2025/05/10`: We release all weights [Triton_AI4Earth_V1](https://huggingface.co/easylearning/Triton_Earth_V1/tree/main), training, inference, and other raw files, and upload the draft of the paper.
