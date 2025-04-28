@@ -32,4 +32,4 @@
 
 
 ## News 🚀🚀🚀
-- `2025/05/10`: We release all weights, training, inference, and other raw files, and upload the draft of the paper.
+- `2025/05/10`: We release all weights [Triton_AI4Earth_V1]([https://huggingface.co/collections/OpenGVLab/internvl-20-667d3961ab5eb12c7ed1463e](https://huggingface.co/easylearning/Triton_Earth_V1)), training, inference, and other raw files, and upload the draft of the paper.
