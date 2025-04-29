@@ -51,7 +51,7 @@ pip install -r requirements.txt && \
 conda install ffmpeg=4.3 libjpeg-turbo=2.0.0 -c pytorch -y
 ```
 
-#### 🤖 Example Usage
+#### 📄 Example Usage
 
 ```bash
 from Triton_model import Triton
@@ -73,7 +73,7 @@ loss = F.mse_loss(output, target)
 loss.backward()
 ```
 
-####  🤖 Run the train code
+####  ✨ Run the train code
 
 We currently provide the code for single-machine multi-GPU runs, such as the Kuroshio experiment. We conduct experiments on a single machine with 8 GPUs and 40GB A100. The training command is as follows:
 
