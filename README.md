@@ -107,7 +107,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
   
   <br>
   
-  <em>Figure: Dynamic evolution of predicted (red) versus observed (blue) global average temperatures over 364 days. 
+  <em>Figure: Dynamic evolution of predicted (red) versus observed (blue) global average temperatures over one year (365 days). 
   <br>Shaded region shows the absolute difference between prediction and observation.</em>
 </div>
 
