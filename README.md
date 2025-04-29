@@ -14,7 +14,7 @@ This repo is the official PyTorch implementation of Triton_Earth, which advances
     <img src="https://img.shields.io/badge/huggingface-OpenSTL-blueviolet" /></a> -->
 <a href="https://openstl.readthedocs.io/en/latest/" alt="docs">
     <img src="https://readthedocs.org/projects/openstl/badge/?version=latest" /></a>
-<a href="https://github.com/chengtan9907/OpenSTL/issues" alt="docs">
+<a href="https://github.com/easylearningscores/Triton_AI4Earth/issues" alt="docs">
     <img src="https://img.shields.io/github/issues-raw/chengtan9907/SimVPv2?color=%23FF9600" /></a>
 <a href="https://github.com/chengtan9907/OpenSTL/issues" alt="resolution">
     <img src="https://img.shields.io/badge/issue%20resolution-1%20d-%23B7A800" /></a>
