@@ -97,6 +97,17 @@ or
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
 ```
 
-## Main results 🏆🏆🏆 
+
+## Forecast Visualization 🏆🏆🏆 
 
 
+### Kuroshio forecasting
+
+
+
+
+<div align="center">
+  <img src="figure/forecast_comparison.gif" alt="120-day Kuroshio Current Forecast Comparison" width="800"/>
+  <br>
+  <em>Figure: 120-day forecast comparison showing initial conditions (left, 2021-10-18), ground truth (middle-left), model prediction (middle-right), and absolute error (right)</em>
+</div>
