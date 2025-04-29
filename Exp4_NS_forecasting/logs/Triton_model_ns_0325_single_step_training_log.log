@@ -1,0 +1,12 @@
+2025-03-24 11:50:17,954 Added key: store_based_barrier_key:1 to store for rank: 7
+2025-03-24 11:50:17,972 Added key: store_based_barrier_key:1 to store for rank: 1
+2025-03-24 11:50:17,976 Added key: store_based_barrier_key:1 to store for rank: 5
+2025-03-24 11:50:17,978 Added key: store_based_barrier_key:1 to store for rank: 6
+2025-03-24 11:50:18,807 Added key: store_based_barrier_key:1 to store for rank: 4
+2025-03-24 11:50:18,880 Added key: store_based_barrier_key:1 to store for rank: 2
+2025-03-24 11:50:18,893 Added key: store_based_barrier_key:1 to store for rank: 3
+2025-03-24 11:50:18,897 Added key: store_based_barrier_key:1 to store for rank: 0
+2025-03-24 11:50:44,325 Epoch 1/500
+2025-03-24 11:52:41,321 Current Learning Rate: 0.0009999901
+2025-03-24 11:52:41,384 Train Loss: 0.0225124, Val Loss: 0.0143121
+2025-03-24 11:52:41,384 Epoch 2/500
