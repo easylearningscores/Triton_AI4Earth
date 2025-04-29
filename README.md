@@ -134,3 +134,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
   <br>
   <em>Figure: 120-day forecast comparison showing initial conditions (left, 2021-10-18), ground truth (middle-left), model prediction (middle-right), and absolute error (right)</em>
 </div>
+
+
+
+### Turbulence forecasting 👀
