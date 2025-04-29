@@ -1,5 +1,10 @@
  # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
 
+
+-----
+
+This repo is the official PyTorch implementation of Triton_Earth, which advances long-term Earth system forecasting by learning the small-scale nature.
+
 <p align="left">
 <a href="https://arxiv.org/abs/2312.08403" alt="arXiv">
     <img src="https://img.shields.io/badge/arXiv-2306.11249-b31b1b.svg?style=flat" /></a>
@@ -24,6 +29,12 @@
 [👀Visualization](https://arxiv.org/abs/2312.08403) |
 [🆕News](docs/en/changelog.md)
 
+
+## 📑 Open-source Plan
+- [x] Project Page
+- [x] Paper
+
+## Architecture 🌟🌟🌟
 
 </div>
 <div align=center>
