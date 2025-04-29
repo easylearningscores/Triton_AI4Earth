@@ -100,11 +100,27 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 
 ## Forecast Visualization 🏆🏆🏆 
 
+### Weather forecasting
+
+
+
+----------
+
+
+
+### Ocean simulation
+
+
+----------
+
 
 ### Kuroshio forecasting
 
-
-
+<div align="center">
+  <img src="figure/forecast_comparison_02.gif" alt="120-day Kuroshio Current Forecast Comparison" width="800"/>
+  <br>
+  <em>Figure: 120-day forecast comparison showing initial conditions (left, 2021-09-03), ground truth (middle-left), model prediction (middle-right), and absolute error (right)</em>
+</div>
 
 <div align="center">
   <img src="figure/forecast_comparison.gif" alt="120-day Kuroshio Current Forecast Comparison" width="800"/>
