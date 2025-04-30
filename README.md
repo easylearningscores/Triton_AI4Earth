@@ -117,6 +117,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 
 ### Ocean simulation 👀
 
+<div align="center">
+  <img src="figure/SSTa_forecast (2).gif" alt="60-day MHW simulation" width="800"/>
+  <br>
+  <em>Figure: 60-day simulation</em>
+</div>
+
 
 ----------
 
