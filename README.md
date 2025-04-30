@@ -155,3 +155,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
   
   <em>Figure: Temporal evolution comparing Ground Truth with Triton, FNO, SimVP and U-Net predictions over 99 timesteps</em>
 </div>
+
+
+
+
+
+## Acknowledgments  🤗🤗🤗
+
+This project draws partial inspiration from and/or incorporates code from the following open-source works: [NVIDIA Physics NeMo](https://github.com/NVIDIA/physicsnemo), [OpenSTL](https://github.com/chengtan9907/OpenSTL), [EarthFarseer](https://github.com/easylearningscores/EarthFarseer), and [Torch-CFD](https://github.com/scaomath/torch-cfd). We gratefully acknowledge their contributions to our work.
