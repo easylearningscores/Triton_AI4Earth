@@ -124,6 +124,13 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 </div>
 
 
+<div align="center">
+  <img src="figure/SSSa_forecast (1).gif" alt="60-day SSSa simulation" width="800"/>
+  <br>
+  <em>Figure: 60-day SSSa simulation</em>
+</div>
+
+
 ----------
 
 
