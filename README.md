@@ -1,7 +1,8 @@
-![image](https://github.com/user-attachments/assets/387aca26-7a8d-42d9-9eff-660e85a8fa88) # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
+
+ 
+ # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
 
 
------
 
 This repo is the official PyTorch implementation of Triton_Earth, which advances long-term Earth system forecasting by learning the small-scale nature.
 
