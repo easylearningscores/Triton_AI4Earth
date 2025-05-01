@@ -75,59 +75,79 @@ or
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
 ```
 
-#### 🛠️ Tutorial
+#### 🛠️ Quick Start Guide
 
-You can run your own dataset following the tutorial below.
+This guide will walk you through environment setup, model configuration, and training workflow.
 
-First, create some folders, such as "checkpoints" and "logs," to store the files generated during the experiment.
+##### Project Structure Initialization 📂 
 
-Next, download the Triton model and place it in the "model" directory.
-
-
+Run the following command to create the basic directory structure:
 
 ```bash
-├── checkpoints
-├── dataset
-├── logs
-├── model
-├── results
-├── config.yaml
-├── dataloader_ns.py
-├── inference_all.py
-├── train_api.py
+mkdir -p {checkpoints,dataset,logs,model,results}
+
+Initialized project structure:
+├── checkpoints/    # Model weights storage
+├── dataset/        # Experimental datasets
+├── logs/           # Training logs
+├── model/          # Triton model directory
+├── results/        # Experiment outputs
+├── config.yaml     # Global configuration
+├── dataloader_ns.py # Data loader implementation
+├── inference_all.py # Inference interface
+├── train_api.py    # Training entry point
 ```
 
-About the dataloader, the input and output dimensions for the dataloader should follow these dimensions:
+##### Model Preparation ⬇️
 
+1. Download the Triton model from official source
+2. Place model files in `model/` directory
+3. (Optional) Download pretrained weights to `checkpoints/`
+
+##### Data Specification 📊
+The data loader expects the following dimensions:
 ```bash
+# Dimension verification
 sample_input, sample_target = next(iter(train_loader))
-    print(f"Input shape: {sample_input.shape}")   
-    print(f"Target shape: {sample_target.shape}") # B T C H W
+print(f"📥 Input tensor shape: {sample_input.shape}")   # [B, T, C, H, W]
+print(f"📤 Target tensor shape: {sample_target.shape}")  # [B, T, C, H, W]
 
+# Expected output:
 Input shape: torch.Size([32, 10, 2, 128, 128])
 Target shape: torch.Size([32, 10, 2, 128, 128])
+
 ```
+💡 Dimension legend: B-Batch size, T-Time steps, C-Channels, H-Height, W-Width
 
-Then, you can refer to the following code for instantiating and running it:
-
+##### Model Initialization & Training 🧠 
+Reference code for model instantiation and training:
 ```bash
 from Triton_model import Triton
 import torch.nn.functional as F
 import torch
 
-inputs = torch.randn(1, 10, 2, 256, 256)
-model = Triton(
-        shape_in=(10, 2, 256, 256),
-        spatial_hidden_dim=32,
-        output_channels=1,
-        temporal_hidden_dim=64,
-        num_spatial_layers=4,
-        num_temporal_layers=8)
-output = model(inputs)
-print(output.shape)
+# Generate sample data
+inputs = torch.randn(1, 10, 2, 256, 256)  # (B, T, C, H, W)
 target = torch.rand((1, 10, 2, 256, 256))
+
+# Initialize Triton model
+model = Triton(
+    shape_in=(10, 2, 256, 256),      # Input dimensions (T, C, H, W)
+    spatial_hidden_dim=32,           # Spatial encoder hidden dim
+    output_channels=1,               # Output channels
+    temporal_hidden_dim=64,          # Temporal encoder hidden dim
+    num_spatial_layers=4,            # Spatial encoder layers
+    num_temporal_layers=8            # Temporal encoder layers
+)
+
+# Forward pass
+output = model(inputs)
+print(f"🎯 Output shape: {output.shape}")  # Expected: torch.Size([1, 10, 1, 256, 256])
+
+# Loss calculation & backpropagation
 loss = F.mse_loss(output, target)
 loss.backward()
+print("✅ Backpropagation completed!")
 ```
 
 ## Forecast Visualization 🏆🏆🏆 
