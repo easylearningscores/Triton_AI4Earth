@@ -97,6 +97,18 @@ Next, download the Triton model and place it in the "model" directory.
 ├── train_api.py
 ```
 
+About the dataloader, the input and output dimensions for the dataloader should follow these dimensions:
+
+```bash
+sample_input, sample_target = next(iter(train_loader))
+    print(f"Input shape: {sample_input.shape}")   
+    print(f"Target shape: {sample_target.shape}") # B T C H W
+
+Input shape: torch.Size([32, 10, 2, 128, 128])
+Target shape: torch.Size([32, 10, 2, 128, 128])
+```
+
+Then, you can refer to the following code for instantiating and running it:
 
 ```bash
 from Triton_model import Triton
