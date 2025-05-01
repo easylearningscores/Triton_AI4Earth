@@ -62,7 +62,41 @@ pip install -r requirements.txt && \
 conda install ffmpeg=4.3 libjpeg-turbo=2.0.0 -c pytorch -y
 ```
 
-#### 📄 Example Usage
+####  ✨ Run the train code
+
+We currently provide the code for single-machine multi-GPU runs, such as the Kuroshio experiment. We conduct experiments on a single machine with 8 GPUs and 40GB A100. The training command is as follows:
+
+```bash
+torchrun --nnodes=1 --nproc_per_node=8 train_Kuro_triton.py
+```
+
+or
+```bash
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
+```
+
+#### 🛠️ Tutorial
+
+You can run your own dataset following the tutorial below.
+
+First, create some folders, such as "checkpoints" and "logs," to store the files generated during the experiment.
+
+Next, download the Triton model and place it in the "model" directory.
+
+
+
+```bash
+├── checkpoints
+├── dataset
+├── logs
+├── model
+├── results
+├── config.yaml
+├── dataloader_ns.py
+├── inference_all.py
+├── train_api.py
+```
+
 
 ```bash
 from Triton_model import Triton
@@ -83,36 +117,6 @@ target = torch.rand((1, 10, 2, 256, 256))
 loss = F.mse_loss(output, target)
 loss.backward()
 ```
-
-####  ✨ Run the train code
-
-We currently provide the code for single-machine multi-GPU runs, such as the Kuroshio experiment. We conduct experiments on a single machine with 8 GPUs and 40GB A100. The training command is as follows:
-
-```bash
-torchrun --nnodes=1 --nproc_per_node=8 train_Kuro_triton.py
-```
-
-or
-```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
-```
-
-#### 🛠️ Tutorial
-
-You can run your own dataset following the tutorial below.
-
-```bash
-├── checkpoints
-├── dataset
-├── logs
-├── model
-├── results
-├── config.yaml
-├── dataloader_ns.py
-├── inference_all.py
-├── train_api.py
-```
-
 
 ## Forecast Visualization 🏆🏆🏆 
 
