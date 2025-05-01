@@ -97,6 +97,22 @@ or
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=25641 train_Kuro_triton.py
 ```
 
+#### 🛠️ Tutorial
+
+You can run your own dataset following the tutorial below.
+
+```bash
+├── checkpoints
+├── dataset
+├── logs
+├── model
+├── results
+├── config.yaml
+├── dataloader_ns.py
+├── inference_all.py
+├── train_api.py
+```
+
 
 ## Forecast Visualization 🏆🏆🏆 
 
