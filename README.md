@@ -1,4 +1,4 @@
- # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
+![image](https://github.com/user-attachments/assets/387aca26-7a8d-42d9-9eff-660e85a8fa88) # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
 
 
 -----
@@ -240,3 +240,8 @@ print("✅ Backpropagation completed!")
 ## Acknowledgments  🤗🤗🤗
 
 This project draws partial inspiration from and/or incorporates code from the following open-source works: [NVIDIA Physics NeMo](https://github.com/NVIDIA/physicsnemo), [UniFormer](https://github.com/Sense-X/UniFormer), [OpenSTL](https://github.com/chengtan9907/OpenSTL), [EarthFarseer](https://github.com/easylearningscores/EarthFarseer), and [Torch-CFD](https://github.com/scaomath/torch-cfd). We gratefully acknowledge their contributions to our work.
+
+
+
+## Contact ✉️✉️✉️
+If you have any questions about our paper or code, please contact wuhao2022@mail.ustc.edu.cn
