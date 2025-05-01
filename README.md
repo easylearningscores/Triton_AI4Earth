@@ -176,11 +176,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
   <em>Figure: Temporal evolution comparing Ground Truth with Triton, FNO, SimVP and U-Net predictions over 99 timesteps</em>
 </div>
 
+<div align="center">
+  <img src="figure/supply_main_ns_esd.png" alt="Model Comparison Animation" width="1000"/>
+  <br>
+  <em>Figure: Enstrophy spectra comparison at the final forecast step.</em>
+</div>
 
-</div>
-<div align=center>
-<img src="figure/supply_main_ns_esd.png" width="1000">
-</div>
 
 
 
