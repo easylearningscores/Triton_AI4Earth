@@ -109,7 +109,7 @@ The data loader expects the following dimensions:
 ```bash
 # Dimension verification
 sample_input, sample_target = next(iter(train_loader))
-print(f"📥 Input tensor shape: {sample_input.shape}")   # [B, T, C, H, W]
+print(f"📥 Input tensor shape: {sample_input.shape}")   # [B, T, C, H, W] 1
 print(f"📤 Target tensor shape: {sample_target.shape}")  # [B, T, C, H, W]
 
 # Expected output:
