@@ -1,0 +1,1 @@
+Please put the training data in this folder, the data structure is same as the test data, which can be found on the Hugging Face of our project.

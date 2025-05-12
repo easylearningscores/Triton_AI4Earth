@@ -1,0 +1,62 @@
+### base config ###
+# -*- coding: utf-8 -*-
+full_field: &FULL_FIELD
+  loss: 'l2'
+  lr: 1E-3
+  max_epochs: 200
+  num_data_workers: 4
+  dt: 1                     # how many timesteps ahead the model will predict
+  n_history: 0              # how many previous timesteps to consider
+  prediction_type: 'iterative'
+  ics_type: "default"       # default or datetime
+  optimizer_type: 'FusedAdam'
+
+  exp_dir: './exp'
+
+  # data
+  train_data_path: './data/train'
+  valid_data_path: './data/valid'  
+  test_data_path:  './data/test'
+
+  # land mask
+  land_mask: !!bool True
+  land_mask_path: './data/land_mask.h5'
+
+  # normalization
+  normalize: !!bool True
+  normalization: 'zscore' # options zscore, minmax, zscore_lat
+  global_means_path: './data/mean_s_t_ssh.npy' 
+  global_stds_path:  './data/std_s_t_ssh.npy' 
+
+  add_noise: !!bool False
+
+  log_to_screen: !!bool True
+  save_checkpoint: !!bool True
+
+#############################################
+Triton: &Triton
+  <<: *FULL_FIELD
+  nettype: 'Triton'
+  
+  # Train params
+  lr: 1E-3
+  batch_size: 32 
+  scheduler: 'CosineAnnealingLR'
+
+  loss_channel_wise: True
+  loss_scale: False 
+  use_loss_scaler_from_metnet3: True
+
+
+  atmos_channels: [93, 94, 95, 96]
+
+  ocean_channels: [0, 1 ,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ,21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92]
+
+  in_channels: [0, 1 ,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ,21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96]
+
+  out_channels: [0, 1 ,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ,21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92]
+
+  out_variables: ["S0", "S2", "S5", "S7", "S11", "S15", "S21", "S29", "S40", "S55", "S77", "S92", "S109", "S130", "S155", "S186", "S222", "S266", "S318", "S380", "S453", "S541", "S643", "U0", "U2", "U5", "U7", "U11", "U15", "U21", "U29", "U40", "U55", "U77", "U92", "U109", "U130", "U155", "U186", "U222", "U266", "U318", "U380", "U453", "U541", "U643", "V0", "V2", "V5", "V7", "V11", "V15", "V21", "V29", "V40", "V55", "V77", "V92", "V109", "V130", "V155", "V186", "V222", "V266", "V318", "V380", "V453", "V541", "V643", "T0", "T2", "T5", "T7", "T11", "T15", "T21", "T29", "T40", "T55", "T77", "T92", "T109", "T130", "T155", "T186", "T222", "T266", "T318", "T380", "T453", "T541", "T643", "SSH"]
+  
+  N_in_channels: 97 # 
+  N_out_channels: 93 # 
