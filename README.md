@@ -164,6 +164,8 @@ print("✅ Backpropagation completed!")
   <br>Shaded region shows the absolute difference between prediction and observation.</em>
 </div>
 
+##### 🔥Note: The results can be replicated by training for 1,000 epochs on eight 40 GB A100 GPUs using the hyperparameters we have released.
+
 ----------
 
 
