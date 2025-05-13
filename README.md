@@ -44,6 +44,8 @@ This repo is the official PyTorch implementation of Triton_Earth, which advances
 
 
 ## News 🚀🚀🚀
+
+- `2025/05/13`: We have already submitted our paper to the journal.
 - `2025/05/10`: We release all weights [Triton_AI4Earth_V1](https://huggingface.co/easylearning/Triton_Earth_V1/tree/main), training, inference, and other raw files, and upload the draft of the paper.
 
 
