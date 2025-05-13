@@ -249,4 +249,4 @@ This project draws partial inspiration from and/or incorporates code from the fo
 
 
 ## Contact ✉️✉️✉️
-If you have any questions about our paper or code, please contact wuhao2022@mail.ustc.edu.cn
+If you have any questions about our paper or code, please contact wuhao2022@mail.ustc.edu.cn, yuangao24@mails.tsinghua.edu.cn
