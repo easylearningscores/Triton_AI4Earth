@@ -32,6 +32,7 @@ This repo is the official PyTorch implementation of Triton_Earth, which advances
 
 
 ## 📑 Open-source Plan
+- [ ] Project Page
 - [x] Github Page
 - [x] Paper
 
