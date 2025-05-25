@@ -1,4 +1,6 @@
-
+<p align="center" width="100%">
+  <img src='figure/triton.png' width="100%">
+</p>
  
  # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
 
