@@ -1,9 +1,9 @@
-<p align="center" width="100%">
-  <img src='figure/triton.png' width="100%">
-</p>
+
  
  # <p align=center> Advanced long-term earth system forecasting by learning the small-scale nature</p>
-
+<p align="center" width="100%">
+  <img src='figure/tritongpt.png' width="40%">
+</p>
 
 
 This repo is the official PyTorch implementation of Triton_Earth, which advances long-term Earth system forecasting by learning the small-scale nature.
