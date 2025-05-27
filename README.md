@@ -9,7 +9,7 @@
 This repo is the official PyTorch implementation of Triton_Earth, which advances long-term Earth system forecasting by learning the small-scale nature.
 
 <p align="left">
-<a href="https://github.com/easylearningscores/Triton_AI4Earth/tree/main?tab=readme-ov-file" alt="arXiv">
+<a href="https://arxiv.org/abs/2505.19432" alt="arXiv">
     <img src="https://img.shields.io/badge/arXiv-2306.11249-b31b1b.svg?style=flat" /></a>
 <a href="https://github.com/easylearningscores/Triton_AI4Earth/tree/main?tab=readme-ov-file" alt="license">
     <img src="https://img.shields.io/badge/license-Apache--2.0-%23002FA7" /></a>
