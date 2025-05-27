@@ -243,6 +243,16 @@ print("✅ Backpropagation completed!")
 </div>
 
 
+## Citation
+
+```
+@article{wu2025triton,
+  title={Advanced long-term earth system forecasting by learning the small-scale nature},
+  author={Hao Wu and Yuan Gao and Ruiqi Shu and Kun Wang and Ruijian Gou and Chuhan Wu and Xinliang Liu and Juncai He and Shuhao Cao and Junfeng Fang and Xingjian Shi and Feng Tao and Qi Song and Shengxuan Ji and Yanfei Xiang and Yuze Sun and Jiahao Li and Fan Xu and Huanshuo Dong and Haixin Wang and Fan Zhang and Penghao Zhao and Xian Wu and Qingsong Wen and Deliang Chen and Xiaomeng Huang},
+  journal={arXiv preprint arXiv:2505.19432},
+  year={2025}
+}
+```
 
 
 ## Acknowledgments  🤗🤗🤗
