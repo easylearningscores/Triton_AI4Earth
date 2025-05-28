@@ -260,7 +260,7 @@ print("✅ Backpropagation completed!")
 This project draws partial inspiration from and/or incorporates code from the following open-source works: [NVIDIA Physics NeMo](https://github.com/NVIDIA/physicsnemo), [UniFormer](https://github.com/Sense-X/UniFormer), [OpenSTL](https://github.com/chengtan9907/OpenSTL), [EarthFarseer](https://github.com/easylearningscores/EarthFarseer), and [Torch-CFD](https://github.com/scaomath/torch-cfd). We gratefully acknowledge their contributions to our work.
 
 ## License 📂📂📂
-This project is released under the MIT license. Please see the [LICENSE](https://github.com/easylearningscores/EarthFarseer) file for more information.
+This project is released under the MIT license. Please see the [LICENSE](https://github.com/easylearningscores/Triton_AI4Earth/blob/main/LICENSE) file for more information.
 
 
 
