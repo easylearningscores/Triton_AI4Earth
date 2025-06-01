@@ -154,7 +154,6 @@ def create_dataloaders(config):
         sampler=test_sampler,
         num_workers=config['num_workers'],
         pin_memory=True,
-        shuffle=False,  
         drop_last=True
     )
     
