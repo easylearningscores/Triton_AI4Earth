@@ -14,12 +14,6 @@ class train_Dataset(data_utils.Dataset):
         # Since we have only one variable (vorticity), variables = 1
         self.data = data.unsqueeze(2)  # Shape: [num_samples, time_steps, 1, H, W]
 
-        # Split the data into training set (first 80%)
-        total_samples = self.data.shape[0]
-        self.start_index = 0
-        self.end_index = int(0.8 * total_samples)
-        self.data = self.data[self.start_index:self.end_index]
-
         self.num_samples = self.data.shape[0]
         self.num_time_steps = self.data.shape[1]
         self.variables_input = args.get('variables_input', [0])
@@ -61,15 +55,8 @@ class test_Dataset(data_utils.Dataset):
         self.target_length = args['target_length']
         self.downsample_factor = args['downsample_factor']
 
-        # The data is expected to be a tensor of shape [num_samples, time_steps, H, W]
         # Add a variables dimension to make it [num_samples, time_steps, variables, H, W]
         self.data = data.unsqueeze(2)  # Shape: [num_samples, time_steps, 1, H, W]
-
-        # Split the data into test set (last 10%)
-        total_samples = self.data.shape[0]
-        self.start_index = int(0.9 * total_samples)
-        self.end_index = total_samples
-        self.data = self.data[self.start_index:self.end_index]
 
         self.num_samples = self.data.shape[0]
         self.num_time_steps = self.data.shape[1]
