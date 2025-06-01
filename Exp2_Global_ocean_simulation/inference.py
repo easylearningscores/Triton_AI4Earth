@@ -81,7 +81,7 @@ def setup(params):
     yr = 0
     logging.info('Loading inference data')
     logging.info('Inference data from {}'.format(files_paths[yr]))
-    climate_mean = np.load('/jizhicfs/Prometheus/gaoyuan/llm/ft_local/data/coupled_1.5_23layers/climate_mean_s_t_ssh.npy')
+    climate_mean = np.load('./data/climate_mean_s_t_ssh.npy')
     valid_data_full = h5py.File(files_paths[yr], 'r')['fields'][:365, :, :, :]
     valid_data_full = valid_data_full - climate_mean
 
