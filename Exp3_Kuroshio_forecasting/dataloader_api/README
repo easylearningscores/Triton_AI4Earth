@@ -2,4 +2,3 @@ Here are four files, divided into those without the suffix "test" and those with
 
 The ones consistent with our paper are those without the "test" suffix. Training was performed in parallel on 8 A100 GPUs using multi-step fine-tuning to reproduce the results. Of course, you can directly use our checkpoint for inference.
 
-For the files without the suffix, we used data from before 2024 to randomly split into test and training sets. You can download data from 2024 or later for direct inference from https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_L4_MY_008_047/download, using the weights `Kuro_Triton_exp1_20250224_best_model.pth`.
