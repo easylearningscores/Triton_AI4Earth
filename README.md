@@ -256,3 +256,14 @@ This project is released under the Apache-2.0 license. Please see the [LICENSE](
 
 ## Contact ✉️✉️✉️
 If you have any questions about our paper or code, please contact wuhao2022@mail.ustc.edu.cn, yuangao24@mails.tsinghua.edu.cn, srq24@mails.tsinghua.edu.cn
+
+
+## Github Star History
+<a href="https://star-history.com/#easylearningscores/Triton_AI4Earth&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=easylearningscores/Triton_AI4Earth&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=easylearningscores/Triton_AI4Earth&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=easylearningscores/Triton_AI4Earth&type=Date" />
+ </picture>
+</a>
+
